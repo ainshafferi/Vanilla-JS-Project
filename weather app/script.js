@@ -25,6 +25,9 @@ async function displayWeather(data) {
     document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°c";
     document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
     document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
+    document.querySelector(".weather-type").innerHTML = data.weather[0].main;
+
+    document.querySelector(".feels-like").innerHTML = "Feels like " + Math.round(data.main.feels_like) + "°c";
 
     weatherIcon.src = `images/${data.weather[0].main}.png`;
 
