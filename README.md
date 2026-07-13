@@ -10,11 +10,11 @@ Feel free to explore the projects and check them out!
 
 2) Weather App
    - This weather app was inspired by the GreatStack tutorial and built using HTML, CSS, JavaScript, and the OpenWeather API. The tutorial helped me understand how to work with APIs in JavaScript, and I further enhanced the project by adding my own features and improving the code structure.
-   * Search weather by city name.
-   * Automatically detects the user's current location on page load.
-   * Displays temperature, humidity, wind speed, feels-like temperature, and weather condition.
-   * Dynamically updates the background based on the current weather.
-   * Uses dynamic weather icons.
-   * Organized JavaScript into a separate file for better maintainability.
+     -- Search weather by city name.
+     -- Automatically detects the user's current location on page load.
+     -- Displays temperature, humidity, wind speed, feels-like temperature, and weather condition.
+     -- Dynamically updates the background based on the current weather.
+     -- Uses dynamic weather icons.
+     -- Organized JavaScript into a separate file for better maintainability.
 
 
