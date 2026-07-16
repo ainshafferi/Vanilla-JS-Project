@@ -134,12 +134,18 @@ input:checked+.slider::before {
 
 .container.dark-mode .todo-app,
 .container.dark-mode .notes-app {
-    background: #555;
+    background: rgba(30, 30, 30, 0.65);
+    /* Dark translucent grey */
+    backdrop-filter: blur(8px);
+    /* Softens the background bleed */
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    /* Extremely faint crisp border */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 .container.dark-mode .todo-app h2,
 .container.dark-mode .notes-app h2 {
-    color: #fff;
+    color: #e0e0e0;
 }
 
 .row-todo {
@@ -152,6 +158,15 @@ input:checked+.slider::before {
     margin-bottom: 25px;
 }
 
+.container.dark-mode .row-todo {
+    background: rgba(0, 0, 0, 0.25);
+    /* Darker than the card background */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    /* Keeps your pill shape */
+    transition: border-color 0.2s ease;
+}
+
 input {
     flex: 1;
     border: none;
@@ -159,7 +174,10 @@ input {
     background: transparent;
     padding: 14px;
     font-weight: 14px;
+}
 
+.container.dark-mode input {
+    color: #e0e0e0;
 }
 
 .row-todo button {
@@ -197,7 +215,7 @@ ul li {
 }
 
 .container.dark-mode ul li {
-    color: #fff;
+    color: #e0e0e0;
 }
 
 ul li::before {
@@ -239,11 +257,15 @@ ul li span:hover {
     background: #edeef0;
 }
 
+.container.dark-mode ul li span:hover {
+    background: #640519;
+}
+
 .note {
     position: relative;
     background: #edeef0;
     min-height: 70px;
-    color: #555;
+    color: #640519;
     padding: 15px;
     margin: 20px 0;
     outline: none;
@@ -263,8 +285,9 @@ ul li span:hover {
 }
 
 .container.dark-mode .note {
-    background: #524545;
-    color: #edeef0;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    color: #e0e0e0;
 }
 
 .delete-note {
@@ -282,5 +305,9 @@ ul li span:hover {
 }
 
 .delete-note:hover {
-    background: #fff;
+    background: #e0e0e0;
+}
+
+.container.dark-mode .delete-note:hover {
+    background: #640519;
 }
