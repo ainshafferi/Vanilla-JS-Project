@@ -5,7 +5,6 @@ const toggle = document.getElementById("themeToggle")
 const darkMode = document.querySelector(".container");
 const notesContainer = document.querySelector(".notes-container")
 const createBtn = document.querySelector(".createBtn")
-// let notes = document.querySelectorAll(".input-box")
 
 toggle.addEventListener("change", () => {
     darkMode.classList.toggle("dark-mode");
@@ -79,7 +78,7 @@ createBtn.addEventListener("click", () => {
     note.className = "note";
 
     // Editable area
-    const inputBox = document.createElement("p");
+    const inputBox = document.createElement("div");
     inputBox.className = "input-box";
     inputBox.contentEditable = true;
     inputBox.spellcheck = false;
