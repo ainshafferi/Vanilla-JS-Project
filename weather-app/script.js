@@ -29,7 +29,7 @@ async function displayWeather(data) {
 
     document.querySelector(".feels-like").innerHTML = "Feels like " + Math.round(data.main.feels_like) + "°c";
 
-    weatherIcon.src = `images/${data.weather[0].main}.png`;
+    weatherIcon.src = `./images/${data.weather[0].main}.png`;
 
     if (data.weather[0].main == "Clouds") {
         weatherBg.style.background = "linear-gradient(135deg, #757F9A, #D7DDE8)";
