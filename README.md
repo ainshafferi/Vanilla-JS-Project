@@ -19,20 +19,21 @@ This means every project here is more than a copy — it's a demonstration of wh
  
 ## 📁 Projects
  
-### 1. 🔐 Login Page Clone [View Live](https://ainshafferi.github.io/Vanilla-JS-Project/login-page/)
-> Based on a tutorial by **Shanjai Raj**
+### 1. 🔐 Login Page Clone 
+> Based on a tutorial by **Shanjai Raj** [View Live](https://ainshafferi.github.io/Vanilla-JS-Project/login-page/)
  
 A clean, responsive login page UI.
  
 **What I learned / improved:**
 - Used **CSS variables (custom properties)** to centralize colors, spacing, and fonts
 - Reduced repetition across the stylesheet, making it easier to maintain and theme
+
 **Tech:** `HTML` `CSS`
  
 ---
  
-### 2. ☀️ Weather App [View Live](https://ainshafferi.github.io/Vanilla-JS-Project/weather-app/)
-> Based on a tutorial by **GreatStack**, built with the OpenWeather API
+### 2. ☀️ Weather App 
+> Based on a tutorial by **GreatStack**, built with the OpenWeather API [View Live](https://ainshafferi.github.io/Vanilla-JS-Project/weather-app/)
  
 A dynamic weather app that fetches and displays live weather data.
  
@@ -43,17 +44,19 @@ A dynamic weather app that fetches and displays live weather data.
 - 🎨 Background dynamically updates based on current weather conditions
 - 🖼️ Dynamic weather icons that match real-time conditions
 - 🗂️ JavaScript organized into a separate file for cleaner project structure
+
 **What I learned:**
 - Fetching and handling data from a real-world REST API
 - Working with asynchronous JavaScript (`fetch`, Promises)
 - Using the Geolocation API
 - Structuring JS for readability and maintainability
+
 **Tech:** `HTML` `CSS` `JavaScript` `OpenWeather API`
  
 ---
  
-### 3. 📝 To-Do List + Notes App [View Live](https://ainshafferi.github.io/Vanilla-JS-Project/to-do-list/)
-> Based on a tutorial by **GreatStack**
+### 3. 📝 To-Do List + Notes App 
+> Based on a tutorial by **GreatStack** [View Live](https://ainshafferi.github.io/Vanilla-JS-Project/to-do-list/)
  
 A combined task manager and notes app, merged into a single productivity tool.
  
@@ -63,24 +66,27 @@ A combined task manager and notes app, merged into a single productivity tool.
 - 🌗 Light / dark mode toggle
 - 💾 Persists data with `localStorage` (tasks and notes survive page refresh)
 - 📱 Fully responsive layout that adapts to different screen widths
+
 **What I learned:**
 - DOM manipulation with `appendChild` and `parentElement`
 - Styling with the `::before` pseudo-element
 - Using Flexbox for layout
 - Persisting app state with `localStorage`
 - Combining two separate mini-apps into one cohesive product
+
 **Tech:** `HTML` `CSS` `JavaScript` `localStorage`
  
 ---
  
-### 4. ⏱️ Pomodoro Timer [View Live](https://ainshafferi.github.io/Vanilla-JS-Project/pomodoro/)
-> Based on a tutorial by **How To Web Dev**
+### 4. ⏱️ Pomodoro Timer 
+> Based on a tutorial by **How To Web Dev** [View Live](https://ainshafferi.github.io/Vanilla-JS-Project/pomodoro/)
  
 A focus timer app based on the Pomodoro Technique.
  
 **What I learned:**
 - The difference between `em` and `px` units and when to use each
 - Working with JavaScript `setInterval` / `clearInterval` for timers
+
 **Tech:** `HTML` `CSS` `JavaScript`
 
 ## 🛠️ Tech Stack
@@ -100,9 +106,9 @@ No frameworks. No libraries. Just the fundamentals — done deliberately.
  
 ```
 ├── login-page/
-├── weather-app/
-├── to-do-list/
 ├── pomodoro/
+├── to-do-list/
+├── weather-app/
 └── README.md
 ```
  
